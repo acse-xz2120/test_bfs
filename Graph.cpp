@@ -153,7 +153,7 @@ void Graph::BAGPBFS(int s)
 void Graph::Result(std::vector<int> result, int s, int f)
 {
 	std::cout<<'[';
-	sort(result.begin(), result.end());
+	//sort(result.begin(), result.end());
 	cout << s <<",";
 	cout<< result[0];
 	for (int i=1; i<result.size(); i++)
