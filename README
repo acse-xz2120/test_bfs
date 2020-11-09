@@ -1,0 +1,5 @@
+### BFS algorithm
+use makefile to compile
+
+### example input
+./run.sh /path/to/data/file
