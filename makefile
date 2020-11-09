@@ -1,4 +1,4 @@
-cc = g++
+cc = g++ -no-pie
 prom = bfs
 deps = $(shell find ./ -name "*.h")
 src = $(shell find ./ -name "*.cpp")
