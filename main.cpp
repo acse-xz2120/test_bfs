@@ -35,7 +35,7 @@ void read_graph_file(std::ifstream& file, Graph &g)
 
 int main(int argc,char *argv[])
 {  
-	Graph g(10000);
+	Graph g(100000);
     std::ifstream f(argv[1]);
     read_graph_file(f, g);
 	// g.getAdj();
